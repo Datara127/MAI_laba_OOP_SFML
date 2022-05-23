@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/prog/cmake/share/cmake-3.23/Modules/CMakeParseArguments.cmake
+E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/cmake/CompilerWarnings.cmake
+E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/cmake/Macros.cmake
+E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/CMakeLists.txt

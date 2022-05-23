@@ -1,0 +1,20 @@
+﻿  Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/System/CMakeLists.txt
+  Clock.cpp
+  Err.cpp
+  Lock.cpp
+  Mutex.cpp
+  Sleep.cpp
+  String.cpp
+  Thread.cpp
+  ThreadLocal.cpp
+  Time.cpp
+  FileInputStream.cpp
+  MemoryInputStream.cpp
+  ClockImpl.cpp
+  MutexImpl.cpp
+  SleepImpl.cpp
+  ThreadImpl.cpp
+  ThreadLocalImpl.cpp
+  Создание кода...
+     Создается библиотека E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-system.lib и объект E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-system.exp
+  sfml-system.vcxproj -> E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\Release\sfml-system-2.dll

@@ -1,0 +1,10 @@
+^E:\PROGRAMMING\C++\MAI_LABA_OOP_SFML\SFML-2.6.X\SRC\SFML\AUDIO\CMAKELISTS.TXT
+setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Audio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

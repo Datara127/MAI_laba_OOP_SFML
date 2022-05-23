@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Clock.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Err.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Lock.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Mutex.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Sleep.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\String.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Thread.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\ThreadLocal.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Time.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\FileInputStream.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\MemoryInputStream.cpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\ClockImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\MutexImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\SleepImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\ThreadImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\ThreadLocalImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Err.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Export.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Lock.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Mutex.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\NativeActivity.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\NonCopyable.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Sleep.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\String.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\String.inl" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Thread.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Thread.inl" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\ThreadLocal.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\ThreadLocalPtr.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\ThreadLocalPtr.inl" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Time.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Utf.inl" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Vector2.inl" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\Vector3.inl" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\FileInputStream.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\ClockImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\MutexImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\SleepImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\ThreadImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\Win32\ThreadLocalImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\System\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\System\sfml-system.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="windows">
+      <UniqueIdentifier>{318A7A3B-634C-34E6-A15F-063E977FA39F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

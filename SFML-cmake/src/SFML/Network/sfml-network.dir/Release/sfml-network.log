@@ -1,0 +1,14 @@
+﻿  Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Network/CMakeLists.txt
+  Ftp.cpp
+  Http.cpp
+  IpAddress.cpp
+  Packet.cpp
+  Socket.cpp
+  SocketSelector.cpp
+  TcpListener.cpp
+  TcpSocket.cpp
+  UdpSocket.cpp
+  SocketImpl.cpp
+  Создание кода...
+     Создается библиотека E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-network.lib и объект E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-network.exp
+  sfml-network.vcxproj -> E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\Release\sfml-network-2.dll

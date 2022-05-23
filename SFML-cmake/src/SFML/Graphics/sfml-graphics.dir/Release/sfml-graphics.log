@@ -1,0 +1,36 @@
+﻿  Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Graphics/CMakeLists.txt
+  BlendMode.cpp
+  Color.cpp
+  Font.cpp
+  Glsl.cpp
+  GLCheck.cpp
+  GLExtensions.cpp
+  Image.cpp
+  ImageLoader.cpp
+  RenderStates.cpp
+  RenderTexture.cpp
+  RenderTarget.cpp
+  RenderWindow.cpp
+  Shader.cpp
+  Texture.cpp
+  TextureSaver.cpp
+  Transform.cpp
+  Transformable.cpp
+  View.cpp
+  Vertex.cpp
+  Shape.cpp
+  Создание кода...
+  Компиляция...
+  CircleShape.cpp
+  RectangleShape.cpp
+  ConvexShape.cpp
+  Sprite.cpp
+  Text.cpp
+  VertexArray.cpp
+  VertexBuffer.cpp
+  RenderTextureImpl.cpp
+  RenderTextureImplFBO.cpp
+  RenderTextureImplDefault.cpp
+  Создание кода...
+     Создается библиотека E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-graphics.lib и объект E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-graphics.exp
+  sfml-graphics.vcxproj -> E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\Release\sfml-graphics-2.dll

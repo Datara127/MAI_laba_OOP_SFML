@@ -1,0 +1,10 @@
+^E:\PROGRAMMING\C++\MAI_LABA_OOP_SFML\SFML-CMAKE\CMAKEFILES\E456B7F4CDD9B80C6097AD084B5E72B3\GENERATE.STAMP.RULE
+setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/SFML.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

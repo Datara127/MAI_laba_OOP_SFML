@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B6C6F07-A77D-3C48-A3A5-E60117630930}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>sfml-audio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-audio.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-audio-d-2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-audio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-audio-2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-audio.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-audio-2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-audio.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-audio-2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="Debug";SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"Debug\";SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\sfml-system-d.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\openal32.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbisenc.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbisfile.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbis.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\ogg.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\flac.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Debug/sfml-audio-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Debug/sfml-audio.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="Release";SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"Release\";SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\sfml-system.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\openal32.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbisenc.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbisfile.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbis.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\ogg.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\flac.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-audio.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-audio.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="MinSizeRel";SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"MinSizeRel\";SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\sfml-system.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\openal32.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbisenc.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbisfile.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbis.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\ogg.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\flac.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/MinSizeRel/sfml-audio.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/MinSizeRel/sfml-audio.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="RelWithDebInfo";SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";SFML_AUDIO_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\minimp3;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\AL;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\sfml-system.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\openal32.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbisenc.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbisfile.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\vorbis.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\ogg.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\flac.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/RelWithDebInfo/sfml-audio.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/RelWithDebInfo/sfml-audio.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Audio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Audio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\prog\cmake\share\cmake-3.23\Modules\FindOpenAL.cmake;E:\prog\cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\prog\cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindFLAC.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindVORBIS.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Audio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Audio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\prog\cmake\share\cmake-3.23\Modules\FindOpenAL.cmake;E:\prog\cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\prog\cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindFLAC.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindVORBIS.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Audio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Audio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\prog\cmake\share\cmake-3.23\Modules\FindOpenAL.cmake;E:\prog\cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\prog\cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindFLAC.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindVORBIS.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Audio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Audio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\prog\cmake\share\cmake-3.23\Modules\FindOpenAL.cmake;E:\prog\cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\prog\cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindFLAC.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindVORBIS.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\ALCheck.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\ALCheck.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\AlResource.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\AlResource.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\AudioDevice.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\AudioDevice.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\Export.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\Listener.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\Listener.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\Music.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\Music.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\Sound.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\Sound.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundBuffer.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundBufferRecorder.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\InputSoundFile.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\OutputSoundFile.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundRecorder.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundSource.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundSource.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundStream.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundStream.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileFactory.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundFileFactory.inl" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileReaderFlac.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileReaderFlac.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileReaderMp3.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileReaderMp3.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileReaderOgg.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileReaderOgg.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileReaderWav.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileReaderWav.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileWriterFlac.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileWriterFlac.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileWriterOgg.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileWriterOgg.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileWriterWav.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Audio\SoundFileWriterWav.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ResourceCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Audio\sfml-audio.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\ZERO_CHECK.vcxproj">
+      <Project>{F6536370-8666-3215-9877-6A69E3BC7DF4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\System\sfml-system.vcxproj">
+      <Project>{FE4E6AF5-6D11-37C7-BBAC-4FB5277DC85C}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

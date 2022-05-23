@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3AA09D68-5EE6-3050-A9CB-360D7ABB212E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>sfml-graphics</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-graphics.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-graphics-d-2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-graphics.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-graphics-2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-graphics.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-graphics-2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-graphics.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-graphics-2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";SFML_GRAPHICS_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";SFML_GRAPHICS_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\sfml-window-d.lib;legacy_stdio_definitions.lib;..\..\..\lib\Debug\sfml-system-d.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Debug/sfml-graphics-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Debug/sfml-graphics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";SFML_GRAPHICS_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";SFML_GRAPHICS_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\sfml-window.lib;legacy_stdio_definitions.lib;..\..\..\lib\Release\sfml-system.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-graphics.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/Release/sfml-graphics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";SFML_GRAPHICS_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";SFML_GRAPHICS_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\sfml-window.lib;legacy_stdio_definitions.lib;..\..\..\lib\MinSizeRel\sfml-system.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/MinSizeRel/sfml-graphics.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/MinSizeRel/sfml-graphics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";SFML_GRAPHICS_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";SFML_GRAPHICS_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\stb_image;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\glad\include;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\sfml-window.lib;legacy_stdio_definitions.lib;..\..\..\lib\RelWithDebInfo\sfml-system.lib;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\extlibs\libs-msvc-universal\x64\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/RelWithDebInfo/sfml-graphics.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/lib/RelWithDebInfo/sfml-graphics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Graphics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindFreetype.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Graphics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindFreetype.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Graphics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindFreetype.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\prog\cmake\bin\cmake.exe -SE:/programming/C++/MAI_laba_OOP_SFML/SFML-2.6.x -BE:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake --check-stamp-file E:/programming/C++/MAI_laba_OOP_SFML/SFML-cmake/src/SFML/Graphics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\cmake\Modules\FindFreetype.cmake;E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\tools\windows\resource.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\BlendMode.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\BlendMode.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Color.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Color.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Export.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Font.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Font.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Glsl.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Glsl.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Glsl.inl" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Glyph.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\GLCheck.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\GLCheck.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\GLExtensions.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\GLExtensions.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Image.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Image.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\ImageLoader.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\ImageLoader.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\PrimitiveType.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Rect.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Rect.inl" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderStates.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\RenderStates.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderTexture.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\RenderTexture.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderTarget.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\RenderTarget.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderWindow.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\RenderWindow.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Shader.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Shader.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Texture.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Texture.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\TextureSaver.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\TextureSaver.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Transform.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Transform.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Transformable.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Transformable.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\View.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\View.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Vertex.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Vertex.hpp" />
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Drawable.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Shape.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Shape.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\CircleShape.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\CircleShape.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RectangleShape.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\RectangleShape.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\ConvexShape.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\ConvexShape.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Sprite.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Sprite.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\Text.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\Text.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\VertexArray.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\VertexArray.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\VertexBuffer.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\include\SFML\Graphics\VertexBuffer.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderTextureImpl.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderTextureImpl.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderTextureImplFBO.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderTextureImplFBO.hpp" />
+    <ClCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderTextureImplDefault.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Level4</WarningLevel>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</TreatWarningAsError>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClInclude Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-2.6.x\src\SFML\Graphics\RenderTextureImplDefault.hpp" />
+    <ResourceCompile Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Graphics\sfml-graphics.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\ZERO_CHECK.vcxproj">
+      <Project>{F6536370-8666-3215-9877-6A69E3BC7DF4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\System\sfml-system.vcxproj">
+      <Project>{FE4E6AF5-6D11-37C7-BBAC-4FB5277DC85C}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\programming\C++\MAI_laba_OOP_SFML\SFML-cmake\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{34EA569A-010C-3419-911F-6B4D6AEEFA3F}</Project>
+      <Name>sfml-window</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
